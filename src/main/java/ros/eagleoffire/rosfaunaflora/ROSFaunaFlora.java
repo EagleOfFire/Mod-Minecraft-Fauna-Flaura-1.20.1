@@ -8,6 +8,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import ros.eagleoffire.rosfaunaflora.block.ModBlocks;
+import ros.eagleoffire.rosfaunaflora.item.ModCreativeModTabs;
 import ros.eagleoffire.rosfaunaflora.item.ModItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -21,6 +22,7 @@ public class ROSFaunaFlora
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
