@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rosfaunaflora:block/calice_de_la_mort"
+  }
+}

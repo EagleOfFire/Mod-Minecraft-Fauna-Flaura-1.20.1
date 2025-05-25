@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rosfaunaflora:block/raisin_rouge"
+  }
+}
