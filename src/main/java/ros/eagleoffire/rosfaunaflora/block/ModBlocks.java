@@ -12,6 +12,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.apache.commons.lang3.ObjectUtils;
 import ros.eagleoffire.rosfaunaflora.ROSFaunaFlora;
+import ros.eagleoffire.rosfaunaflora.block.custom.Fauna;
+import ros.eagleoffire.rosfaunaflora.block.custom.Fauna.RarityLevel;
 import ros.eagleoffire.rosfaunaflora.item.ModItems;
 
 import java.util.function.Supplier;
@@ -21,7 +23,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, ROSFaunaFlora.MODID);
 
     public static final RegistryObject<Block> EDELWEISS = registerBlock("edelweiss",
-            () -> new BushBlock(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission()));
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE));
     public static final RegistryObject<Block> POTTED_EDELWEISS = BLOCKS.register("potted_edelweiss",
             () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.EDELWEISS,
                     BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));

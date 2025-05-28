@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-25T21:33:55.6015535	Block States: rosfaunaflora
+// 1.20.1	2025-05-28T11:19:26.3584084	Block States: rosfaunaflora
 49beac825be4206359ba89e9ec13525c7b09e0e3 assets/rosfaunaflora/blockstates/achilee.json
 2f47a900a322ba636d61db42086b67d3b7750eba assets/rosfaunaflora/blockstates/agaricus_bisporus.json
 f8591083a69cd5b44f9c1d5c1268bb090aeae596 assets/rosfaunaflora/blockstates/ail_des_ours.json
@@ -37,7 +37,7 @@ fa64134c58387c490aa2afc5508d39e5278dbd81 assets/rosfaunaflora/blockstates/cortia
 2e67f0a812b503063cb0570a3e0ced2702db9ad2 assets/rosfaunaflora/blockstates/cudonia_circinan.json
 fdc685cc355fb0a647227ac8524ee846926398e9 assets/rosfaunaflora/blockstates/digitale_pourpre.json
 89f2c2c5bb5e31434d585e47085a9eb727ea5801 assets/rosfaunaflora/blockstates/dracula_simia.json
-0f0927a15ff4245d83d72211e0d688ec337387a4 assets/rosfaunaflora/blockstates/edelweiss.json
+4888577410977883cdee78ddb933236e8c44ea7e assets/rosfaunaflora/blockstates/edelweiss.json
 7b3ccc232a43ea630feb0858624c15b2c04caefd assets/rosfaunaflora/blockstates/enoki.json
 305bfc3b969923916ffe9191afa3a348392333ac assets/rosfaunaflora/blockstates/entomole_livide.json
 d7b096b8f1f07cf1378be9e46f1bd6a72d796457 assets/rosfaunaflora/blockstates/estragon.json
@@ -260,6 +260,7 @@ ef5d3eca45d8d65757eb2f54e1a0f6ca4b2ca86f assets/rosfaunaflora/models/block/crini
 bf3892069c6e92b485dd9430eac3fadd94069f95 assets/rosfaunaflora/models/block/digitale_pourpre.json
 0dde9a3da6d53495e025de0bcea1e9f646cf541d assets/rosfaunaflora/models/block/dracula_simia.json
 5c1298f63127aca66e0e93097fd3dd1f72c6f856 assets/rosfaunaflora/models/block/edelweiss.json
+d743c722fe81be52e16d03aa855ceeb88aebfcac assets/rosfaunaflora/models/block/edelweiss_unharvestable.json
 18e081ff52d66e06f84c3ffebf12e705da379d25 assets/rosfaunaflora/models/block/enoki.json
 53653ef985e0d87bde42646981b4a0e175027472 assets/rosfaunaflora/models/block/entomole_livide.json
 dd2a2efa63b678f3f486bfcfbf5d7aa1b5f3a3f5 assets/rosfaunaflora/models/block/estragon.json
@@ -481,7 +482,6 @@ b9aebaddf0d416f9055fe545a05869aa8d5e14f2 assets/rosfaunaflora/models/item/ciste.
 74747d40abd142f38b75c5b662ca813ec9ef1811 assets/rosfaunaflora/models/item/cudonia_circinan.json
 77afe4d1d44a274723ee66dc4701911fbfe9c0ed assets/rosfaunaflora/models/item/digitale_pourpre.json
 b7a46f42e4b53478c267bddfcc46922868740eb9 assets/rosfaunaflora/models/item/dracula_simia.json
-47b90994f79de5bd9804ae611cf2137d22f4bc30 assets/rosfaunaflora/models/item/edelweiss.json
 5f4f1fa120063c24249d303d5096fe4017364fc0 assets/rosfaunaflora/models/item/enoki.json
 43004e2fd031b1a7a40d0285f4e31ea4017f741e assets/rosfaunaflora/models/item/entomole_livide.json
 42e6ec46bc1f6e5ef46e680470128820b529d78f assets/rosfaunaflora/models/item/estragon.json

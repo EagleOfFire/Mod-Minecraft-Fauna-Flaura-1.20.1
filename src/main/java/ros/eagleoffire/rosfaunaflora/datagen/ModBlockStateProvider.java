@@ -3,15 +3,12 @@ package ros.eagleoffire.rosfaunaflora.datagen;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.BushBlock;
-import net.minecraft.world.level.block.FlowerPotBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.RegistryObject;
 import ros.eagleoffire.rosfaunaflora.ROSFaunaFlora;
 import ros.eagleoffire.rosfaunaflora.block.ModBlocks;
+import ros.eagleoffire.rosfaunaflora.block.custom.Fauna;
 
 public class ModBlockStateProvider<Block> extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
@@ -20,8 +17,24 @@ public class ModBlockStateProvider<Block> extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        simpleBlockWithItem(ModBlocks.EDELWEISS.get(), models().cross(blockTexture(ModBlocks.EDELWEISS.get()).getPath(),
-                blockTexture(ModBlocks.EDELWEISS.get())).renderType("cutout"));
+        // Assuming EDELWEISS is your custom Fauna block
+        net.minecraft.world.level.block.Block edelweiss = ModBlocks.EDELWEISS.get();
+
+        // Generate two models: one for each harvestable state
+        ModelFile harvestableModel = models()
+                .cross("edelweiss", blockTexture(edelweiss))
+                .renderType("cutout");
+
+        ModelFile unharvestableModel = models()
+                .cross("edelweiss_unharvestable", modLoc("block/edelweiss_unharvestable"))
+                .renderType("cutout");
+
+        // Register blockstate variants
+        getVariantBuilder(edelweiss)
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(harvestableModel).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(unharvestableModel).addModel();
+
+
         simpleBlockWithItem(ModBlocks.POTTED_EDELWEISS.get(), models().singleTexture("potted_edelweiss", new ResourceLocation("flower_pot_cross"), "plant",
                 blockTexture(ModBlocks.EDELWEISS.get())).renderType("cutout"));
 
