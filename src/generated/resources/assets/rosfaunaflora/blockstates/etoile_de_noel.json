@@ -1,6 +1,9 @@
 {
   "variants": {
-    "": {
+    "harvestable=false": {
+      "model": "rosfaunaflora:block/plante_unharvestable"
+    },
+    "harvestable=true": {
       "model": "rosfaunaflora:block/etoile_de_noel"
     }
   }

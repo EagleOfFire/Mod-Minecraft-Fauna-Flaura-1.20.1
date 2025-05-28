@@ -1,7 +1,7 @@
 {
   "variants": {
     "harvestable=false": {
-      "model": "rosfaunaflora:block/edelweiss_unharvestable"
+      "model": "rosfaunaflora:block/plante_unharvestable"
     },
     "harvestable=true": {
       "model": "rosfaunaflora:block/edelweiss"

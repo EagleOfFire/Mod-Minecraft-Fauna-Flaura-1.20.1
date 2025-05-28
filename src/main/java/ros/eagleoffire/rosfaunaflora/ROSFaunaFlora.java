@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import ros.eagleoffire.rosfaunaflora.block.ModBlockEntities;
 import ros.eagleoffire.rosfaunaflora.block.ModBlocks;
 import ros.eagleoffire.rosfaunaflora.item.ModCreativeModTabs;
 import ros.eagleoffire.rosfaunaflora.item.ModItems;
@@ -25,6 +26,7 @@ public class ROSFaunaFlora {
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

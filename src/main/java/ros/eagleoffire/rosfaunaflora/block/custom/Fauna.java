@@ -15,13 +15,21 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.BushBlock;
+import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityTicker;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.entity.TickingBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.Nullable;
+import ros.eagleoffire.rosfaunaflora.block.ModBlockEntities;
 
-public class Fauna extends BushBlock {
+public class Fauna extends BushBlock implements EntityBlock {
     public enum RarityLevel {
         COMMUN("commun"),
         RARE("rare"),
@@ -41,15 +49,13 @@ public class Fauna extends BushBlock {
 
     public static final BooleanProperty HARVESTABLE = BooleanProperty.create("harvestable");
     private final RarityLevel rarity;
+    private final RegistryObject<BlockEntityType<FaunaBlockEntity>> blockEntityType;
 
-    public Fauna(Properties properties, RarityLevel rarity) {
+    public Fauna(Properties properties, RarityLevel rarity, RegistryObject<BlockEntityType<FaunaBlockEntity>> blockEntityType) {
         super(properties.randomTicks());
         this.rarity = rarity;
+        this.blockEntityType = blockEntityType;
         this.registerDefaultState(this.stateDefinition.any().setValue(HARVESTABLE, true));
-    }
-
-    public RarityLevel getRarity() {
-        return rarity;
     }
 
     @Override
@@ -69,7 +75,11 @@ public class Fauna extends BushBlock {
             popResource(level, pos, new ItemStack(this.asItem()));
             BlockState newState = state.setValue(HARVESTABLE, false);
             level.setBlock(pos, newState, 3);
-            scheduleRegrow(level, pos, this.getRarity());
+            //scheduleRegrow(level, pos, this.getRarity());
+            BlockEntity blockEntity = level.getBlockEntity(pos);
+            if (blockEntity instanceof FaunaBlockEntity faunaEntity) {
+                faunaEntity.setRegrowTime(getRegrowTicks(level, rarity));
+            }
             level.playSound(null, pos, SoundEvents.GRASS_BREAK, SoundSource.BLOCKS, 1.0F, 1.0F);
             return InteractionResult.CONSUME;
         }
@@ -77,48 +87,33 @@ public class Fauna extends BushBlock {
         return InteractionResult.PASS;
     }
 
+    @Nullable
     @Override
-    public void tick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
-        if (!state.getValue(HARVESTABLE)) {
-            BlockState newState = state.setValue(HARVESTABLE, true);
-            if (!newState.equals(state)) {
-                level.setBlock(pos, newState, 3); // 3 = update clients and neighbors
-                System.out.println("Tick: growing plant at " + pos);
-            }
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> type) {
+        if (!level.isClientSide && type == blockEntityType.get()) {
+            return (lvl, pos, blockState, blockEntity) ->
+                    FaunaBlockEntity.tick((ServerLevel) lvl, pos, blockState, (FaunaBlockEntity) blockEntity);
         }
+        return null;
     }
 
-    public void scheduleRegrow(Level level, BlockPos pos, RarityLevel rarity) {
-        if (level instanceof ServerLevel serverLevel) {
-            int minHours, maxHours;
-            switch (rarity) {
-                case COMMUN -> {
-                    minHours = 2;
-                    maxHours = 6;
-                }
-                case RARE -> {
-                    minHours = 38;
-                    maxHours = 58;
-                }
-                case TRES_RARE -> {
-                    minHours = 66;
-                    maxHours = 106;
-                }
-                case INTROUVABLE -> {
-                    minHours = 138;
-                    maxHours = 188;
-                }
-                default -> {
-                    minHours = 0;
-                    maxHours = 0;
-                }
-            }
+    @Override
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return new FaunaBlockEntity(blockEntityType.get(), pos, state);
+    }
 
-            int ticks = (minHours * 72000) + serverLevel.getRandom().nextInt((maxHours - minHours) * 72000);
-            serverLevel.scheduleTick(pos, this, ticks);
-            System.out.println("Regrowth scheduled in " + ticks + " ticks (" + (ticks / 72000f) + " hours)");
+    private int getRegrowTicks(Level level, RarityLevel rarity) {
+        return switch (rarity) {
+            case COMMUN -> 2 * 72000 + level.random.nextInt(4 * 72000); // 2-6 hours
+            case RARE -> 38 * 72000 + level.random.nextInt(20 * 72000);
+            case TRES_RARE -> 66 * 72000 + level.random.nextInt(40 * 72000);
+            case INTROUVABLE -> 138 * 72000 + level.random.nextInt(50 * 72000);
+        };
+    }
 
-        }
+
+    public RarityLevel getRarity() {
+        return rarity;
     }
 }
 
