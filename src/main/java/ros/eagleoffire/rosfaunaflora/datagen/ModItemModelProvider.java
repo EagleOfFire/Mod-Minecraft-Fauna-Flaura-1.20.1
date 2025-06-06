@@ -134,6 +134,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItemBlockTexture(ModBlocks.CEREUS_HEANKENUS);
         simpleBlockItemBlockTexture(ModBlocks.FEROCACTUS);
         simpleBlockItemBlockTexture(ModBlocks.FEROCACTUS_FLEUR);
+
+        // special
+
+        simpleBlockItemBlockTexture(ModBlocks.MULDVARPHYTE);
+        simpleBlockItemBlockTexture(ModBlocks.SHI);
+        simpleBlockItemBlockTexture(ModBlocks.ARCANE_BLOOM);
+        simpleBlockItemBlockTexture(ModBlocks.ATHELAS_LOTR);
+        simpleBlockItemBlockTexture(ModBlocks.AURIFERE_MAUVE);
+        simpleBlockItemBlockTexture(ModBlocks.BOUTTON_DES_NEIGES);
+        simpleBlockItemBlockTexture(ModBlocks.CAMPANULE_MAGIQUE);
+        simpleBlockItemBlockTexture(ModBlocks.CHACANELITE);
+        simpleBlockItemBlockTexture(ModBlocks.FLLORRINE);
+        simpleBlockItemBlockTexture(ModBlocks.ICHTIL);
+        simpleBlockItemBlockTexture(ModBlocks.SIMBELMYEN_LOTR);
+        simpleBlockItemBlockTexture(ModBlocks.VICOTINE);
     }
 
     private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {

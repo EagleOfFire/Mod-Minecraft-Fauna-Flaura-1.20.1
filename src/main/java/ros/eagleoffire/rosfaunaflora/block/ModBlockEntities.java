@@ -679,6 +679,80 @@ public class ModBlockEntities {
                             ModBlocks.FEROCACTUS_FLEUR.get()).build(null));
 
 
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> MULDVARPHYTE_BE =
+            BLOCK_ENTITIES.register("muldvarphyte_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.MULDVARPHYTE_BE.get(), pos, state),
+                            ModBlocks.MULDVARPHYTE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> SHI_BE =
+            BLOCK_ENTITIES.register("shi_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.SHI_BE.get(), pos, state),
+                            ModBlocks.SHI.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> ARCANE_BLOOM_BE =
+            BLOCK_ENTITIES.register("arcane_bloom_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.ARCANE_BLOOM_BE.get(), pos, state),
+                            ModBlocks.ARCANE_BLOOM.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> ATHELAS_LOTR_BE =
+            BLOCK_ENTITIES.register("athelas_lotr_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.ATHELAS_LOTR_BE.get(), pos, state),
+                            ModBlocks.ATHELAS_LOTR.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> AURIFERE_MAUVE_BE =
+            BLOCK_ENTITIES.register("aurifere_mauve_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.AURIFERE_MAUVE_BE.get(), pos, state),
+                            ModBlocks.AURIFERE_MAUVE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> BOUTTON_DES_NEIGES_BE =
+            BLOCK_ENTITIES.register("boutton_des_neiges_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.BOUTTON_DES_NEIGES_BE.get(), pos, state),
+                            ModBlocks.BOUTTON_DES_NEIGES.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> CAMPANULE_MAGIQUE_BE =
+            BLOCK_ENTITIES.register("campanule_magique_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.CAMPANULE_MAGIQUE_BE.get(), pos, state),
+                            ModBlocks.CAMPANULE_MAGIQUE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> CHACANELITE_BE =
+            BLOCK_ENTITIES.register("chacanelite_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.CHACANELITE_BE.get(), pos, state),
+                            ModBlocks.CHACANELITE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> FLLORRINE_BE =
+            BLOCK_ENTITIES.register("fllorrine_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.FLLORRINE_BE.get(), pos, state),
+                            ModBlocks.FLLORRINE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> ICHTIL_BE =
+            BLOCK_ENTITIES.register("ichtil_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.ICHTIL_BE.get(), pos, state),
+                            ModBlocks.ICHTIL.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> SIMBELMYEN_LOTR_BE =
+            BLOCK_ENTITIES.register("simbelmyen_lotr_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.SIMBELMYEN_LOTR_BE.get(), pos, state),
+                            ModBlocks.SIMBELMYEN_LOTR.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<FaunaBlockEntity>> VICOTINE_BE =
+            BLOCK_ENTITIES.register("vicotine_be",
+                    () -> BlockEntityType.Builder.of((pos, state)
+                                    -> new FaunaBlockEntity(ModBlockEntities.VICOTINE_BE.get(), pos, state),
+                            ModBlocks.VICOTINE.get()).build(null));
+
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }

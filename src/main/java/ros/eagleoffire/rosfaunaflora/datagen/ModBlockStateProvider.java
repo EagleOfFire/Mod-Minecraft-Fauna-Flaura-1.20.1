@@ -3,10 +3,14 @@ package ros.eagleoffire.rosfaunaflora.datagen;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.RegistryObject;
 import ros.eagleoffire.rosfaunaflora.ROSFaunaFlora;
+import ros.eagleoffire.rosfaunaflora.block.ModBlockEntities;
 import ros.eagleoffire.rosfaunaflora.block.ModBlocks;
 import ros.eagleoffire.rosfaunaflora.block.custom.Fauna;
 
@@ -1037,5 +1041,114 @@ public class ModBlockStateProvider<Block> extends BlockStateProvider {
                         .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
                         .renderType("cutout")).addModel();
         simpleBlockWithItem(ModBlocks.POTTED_FEROCACTUS_FLEUR.get(), models().singleTexture("potted_ferocactus_fleur", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.FEROCACTUS_FLEUR.get())).renderType("cutout"));
+
+
+        getVariantBuilder(ModBlocks.MULDVARPHYTE.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("muldvarphyte", blockTexture(ModBlocks.MULDVARPHYTE.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_MULDVARPHYTE.get(), models().singleTexture("potted_muldvarphyte", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.MULDVARPHYTE.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.SHI.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("shi", blockTexture(ModBlocks.SHI.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_SHI.get(), models().singleTexture("potted_shi", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.SHI.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.ARCANE_BLOOM.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("arcane_bloom", blockTexture(ModBlocks.ARCANE_BLOOM.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_ARCANE_BLOOM.get(), models().singleTexture("potted_arcane_bloom", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.ARCANE_BLOOM.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.ATHELAS_LOTR.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("athelas_lotr", blockTexture(ModBlocks.ATHELAS_LOTR.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_ATHELAS_LOTR.get(), models().singleTexture("potted_athelas_lotr", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.ATHELAS_LOTR.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.AURIFERE_MAUVE.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("aurifere_mauve", blockTexture(ModBlocks.AURIFERE_MAUVE.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_AURIFERE_MAUVE.get(), models().singleTexture("potted_aurifere_mauve", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.AURIFERE_MAUVE.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.BOUTTON_DES_NEIGES.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("boutton_des_neiges", blockTexture(ModBlocks.BOUTTON_DES_NEIGES.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_BOUTTON_DES_NEIGES.get(), models().singleTexture("potted_boutton_des_neiges", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.BOUTTON_DES_NEIGES.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.CAMPANULE_MAGIQUE.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("campanule_magique", blockTexture(ModBlocks.CAMPANULE_MAGIQUE.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_CAMPANULE_MAGIQUE.get(), models().singleTexture("potted_campanule_magique", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.CAMPANULE_MAGIQUE.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.CHACANELITE.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("chacanelite", blockTexture(ModBlocks.CHACANELITE.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_CHACANELITE.get(), models().singleTexture("potted_chacanelite", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.CHACANELITE.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.FLLORRINE.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("fllorrine", blockTexture(ModBlocks.FLLORRINE.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_FLLORRINE.get(), models().singleTexture("potted_fllorrine", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.FLLORRINE.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.ICHTIL.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("ichtil", blockTexture(ModBlocks.ICHTIL.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_ICHTIL.get(), models().singleTexture("potted_ichtil", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.ICHTIL.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.SIMBELMYEN_LOTR.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("simbelmyen_lotr", blockTexture(ModBlocks.SIMBELMYEN_LOTR.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_SIMBELMYEN_LOTR.get(), models().singleTexture("potted_simbelmyen_lotr", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.SIMBELMYEN_LOTR.get())).renderType("cutout"));
+
+        getVariantBuilder(ModBlocks.VICOTINE.get())
+                .partialState().with(Fauna.HARVESTABLE, true).modelForState().modelFile(models()
+                        .cross("vicotine", blockTexture(ModBlocks.VICOTINE.get()))
+                        .renderType("cutout")).addModel()
+                .partialState().with(Fauna.HARVESTABLE, false).modelForState().modelFile(models()
+                        .cross("plante_unharvestable", modLoc("block/plante_unharvestable"))
+                        .renderType("cutout")).addModel();
+        simpleBlockWithItem(ModBlocks.POTTED_VICOTINE.get(), models().singleTexture("potted_vicotine", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.VICOTINE.get())).renderType("cutout"));
     }
 }

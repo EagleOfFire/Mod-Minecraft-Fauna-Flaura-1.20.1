@@ -29,225 +29,252 @@ public class ModBlocks {
                     BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
     public static final RegistryObject<Block> ACHILEE = registerBlock("achilee",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ACHILEE_BE));
-public static final RegistryObject<Block> AIL_DES_OURS = registerBlock("ail_des_ours",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.AIL_DES_OURS_BE));
-public static final RegistryObject<Block> AMARYLLIS_JAUNE = registerBlock("amaryllis_jaune",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.AMARYLLIS_JAUNE_BE));
-public static final RegistryObject<Block> AMARYLLIS_ROUGE = registerBlock("amaryllis_rouge",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.AMARYLLIS_ROUGE_BE));
-public static final RegistryObject<Block> ANETH = registerBlock("aneth",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ANETH_BE));
-public static final RegistryObject<Block> ANIS = registerBlock("anis",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ANIS_BE));
-public static final RegistryObject<Block> ARNICA = registerBlock("arnica",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ARNICA_BE));
-public static final RegistryObject<Block> ASTRAGALE = registerBlock("astragale",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ASTRAGALE_BE));
-public static final RegistryObject<Block> AUBEPINE = registerBlock("aubepine",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.AUBEPINE_BE));
-public static final RegistryObject<Block> BAPTISTA = registerBlock("baptista",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.BAPTISTA_BE));
-public static final RegistryObject<Block> BELLADONE = registerBlock("belladone",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.BELLADONE_BE));
-public static final RegistryObject<Block> BENOITE = registerBlock("benoite",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.BENOITE_BE));
-public static final RegistryObject<Block> BERCE_GEANTE = registerBlock("berce_geante",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.BERCE_GEANTE_BE));
-public static final RegistryObject<Block> BOIS_JOLI = registerBlock("bois_joli",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.BOIS_JOLI_BE));
-public static final RegistryObject<Block> BRUYERE_LOTR = registerBlock("bruyere_lotr",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.BRUYERE_LOTR_BE));
-public static final RegistryObject<Block> CAFEIER = registerBlock("cafeier",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CAFEIER_BE));
-public static final RegistryObject<Block> CALENDULA = registerBlock("calendula",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CALENDULA_BE));
-public static final RegistryObject<Block> CAMELIA = registerBlock("camelia",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CAMELIA_BE));
-public static final RegistryObject<Block> CAPUCINE = registerBlock("capucine",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CAPUCINE_BE));
-public static final RegistryObject<Block> CIGUE = registerBlock("cigue",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CIGUE_BE));
-public static final RegistryObject<Block> CISTE = registerBlock("ciste",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CISTE_BE));
-public static final RegistryObject<Block> CORRIANDRE = registerBlock("corriandre",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CORRIANDRE_BE));
-public static final RegistryObject<Block> COREOPSIS = registerBlock("coreopsis",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.COREOPSIS_BE));
-public static final RegistryObject<Block> DIGITALE_POURPRE = registerBlock("digitale_pourpre",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.DIGITALE_POURPRE_BE));
-public static final RegistryObject<Block> DRACULA_SIMIA = registerBlock("dracula_simia",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.DRACULA_SIMIA_BE));
-public static final RegistryObject<Block> ESTRAGON = registerBlock("estragon",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ESTRAGON_BE));
-public static final RegistryObject<Block> ETOILE_DE_NOEL = registerBlock("etoile_de_noel",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ETOILE_DE_NOEL_BE));
-public static final RegistryObject<Block> EUPHORBE = registerBlock("euphorbe",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.EUPHORBE_BE));
-public static final RegistryObject<Block> FRITILLAIRE_PINTADE = registerBlock("fritillaire_pintade",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.FRITILLAIRE_PINTADE_BE));
-public static final RegistryObject<Block> GAILLET_GRATTERON = registerBlock("gaillet_gratteron",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.GAILLET_GRATTERON_BE));
-public static final RegistryObject<Block> GINSENG = registerBlock("ginseng",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.GINSENG_BE));
-public static final RegistryObject<Block> HOUBLON = registerBlock("houblon",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.HOUBLON_BE));
-public static final RegistryObject<Block> HOUX = registerBlock("houx",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.HOUX_BE));
-public static final RegistryObject<Block> IRIS_BLEU = registerBlock("iris_bleu",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.IRIS_BLEU_BE));
-public static final RegistryObject<Block> JACINTHE_DES_BOIS_LOTR = registerBlock("jacinthe_des_bois_lotr",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.JACINTHE_DES_BOIS_LOTR_BE));
-public static final RegistryObject<Block> JONQUILLE = registerBlock("jonquille",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.JONQUILLE_BE));
-public static final RegistryObject<Block> LAVENDE = registerBlock("lavende",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.LAVENDE_BE));
-public static final RegistryObject<Block> LIERRE_TERRESTRE = registerBlock("lierre_terrestre",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.LIERRE_TERRESTRE_BE));
-public static final RegistryObject<Block> LYCORIS_RADIATA = registerBlock("lycoris_radiata",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.LYCORIS_RADIATA_BE));
-public static final RegistryObject<Block> MAUVE = registerBlock("mauve",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MAUVE_BE));
-public static final RegistryObject<Block> MENTHE = registerBlock("menthe",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MENTHE_BE));
-public static final RegistryObject<Block> MUGUET = registerBlock("muguet",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MUGUET_BE));
-public static final RegistryObject<Block> MUSCARI = registerBlock("muscari",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MUSCARI_BE));
-public static final RegistryObject<Block> MYOSOTIS = registerBlock("myosotis",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MYOSOTIS_BE));
-public static final RegistryObject<Block> MYRTILLE = registerBlock("myrtille",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MYRTILLE_BE));
-public static final RegistryObject<Block> MELISSE = registerBlock("melisse",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MELISSE_BE));
-public static final RegistryObject<Block> NICOTINIA_TABACUM = registerBlock("nicotinia_tabacum",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.NICOTINIA_TABACUM_BE));
-public static final RegistryObject<Block> NOISETTE_DE_TERRE = registerBlock("noisette_de_terre",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.NOISETTE_DE_TERRE_BE));
-public static final RegistryObject<Block> ORCHIDEE_ANGE = registerBlock("orchidee_ange",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ORCHIDEE_ANGE_BE));
-public static final RegistryObject<Block> ORCHIDEE = registerBlock("orchidee",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ORCHIDEE_BE));
-public static final RegistryObject<Block> ORTIE = registerBlock("ortie",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ORTIE_BE));
-public static final RegistryObject<Block> OSEILLE_SAUVAGE = registerBlock("oseille_sauvage",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.OSEILLE_SAUVAGE_BE));
-public static final RegistryObject<Block> OXALIS_JAUNE = registerBlock("oxalis_jaune",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.OXALIS_JAUNE_BE));
-public static final RegistryObject<Block> PELARGONIUM = registerBlock("pelargonium",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.PELARGONIUM_BE));
-public static final RegistryObject<Block> PERCE_NEIGE = registerBlock("perce_neige",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.PERCE_NEIGE_BE));
-public static final RegistryObject<Block> PERISTERIA = registerBlock("peristeria",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.PERISTERIA_BE));
-public static final RegistryObject<Block> PERSIL = registerBlock("persil",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.PERSIL_BE));
-public static final RegistryObject<Block> PLANTIN = registerBlock("plantin",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.PLANTIN_BE));
-public static final RegistryObject<Block> POIVRE_NOIR = registerBlock("poivre_noir",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.POIVRE_NOIR_BE));
-public static final RegistryObject<Block> PRIMEVERE = registerBlock("primevere",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.PRIMEVERE_BE));
-public static final RegistryObject<Block> PRELE = registerBlock("prele",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.PRELE_BE));
-public static final RegistryObject<Block> RAFFLESIA = registerBlock("rafflesia",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.RAFFLESIA_BE));
-public static final RegistryObject<Block> RAISIN_BLANC = registerBlock("raisin_blanc",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.RAISIN_BLANC_BE));
-public static final RegistryObject<Block> RAISIN_ROUGE = registerBlock("raisin_rouge",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.RAISIN_ROUGE_BE));
-public static final RegistryObject<Block> RANUNCULUS_FICARIA = registerBlock("ranunculus_ficaria",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.RANUNCULUS_FICARIA_BE));
-public static final RegistryObject<Block> REINE_DES_PRES = registerBlock("reine_des_pres",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.REINE_DES_PRES_BE));
-public static final RegistryObject<Block> RHODODENDRON = registerBlock("rhododendron",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.RHODODENDRON_BE));
-public static final RegistryObject<Block> RICIN = registerBlock("ricin",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.RICIN_BE));
-public static final RegistryObject<Block> ROMARIN = registerBlock("romarin",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ROMARIN_BE));
-public static final RegistryObject<Block> ROSE_BLANCHE = registerBlock("rose_blanche",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ROSE_BLANCHE_BE));
-public static final RegistryObject<Block> SARRACENE = registerBlock("sarracene",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.SARRACENE_BE));
-public static final RegistryObject<Block> SILENE = registerBlock("silene",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.SILENE_BE));
-public static final RegistryObject<Block> SUREAU_NOIR = registerBlock("sureau_noir",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.SUREAU_NOIR_BE));
-public static final RegistryObject<Block> SWEAT_WILLIAM_BLANCHE = registerBlock("sweat_william_blanche",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.SWEAT_WILLIAM_BLANCHE_BE));
-public static final RegistryObject<Block> SWEAT_WILLIAM_ROSE = registerBlock("sweat_william_rose",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.SWEAT_WILLIAM_ROSE_BE));
-public static final RegistryObject<Block> THYM = registerBlock("thym",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.THYM_BE));
-public static final RegistryObject<Block> THEIER = registerBlock("theier",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.THEIER_BE));
-public static final RegistryObject<Block> UVULAIRES = registerBlock("uvulaires",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.UVULAIRES_BE));
-public static final RegistryObject<Block> VIOLETTE = registerBlock("violette",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.VIOLETTE_BE));
-public static final RegistryObject<Block> WEIGELA = registerBlock("weigela",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.WEIGELA_BE));
-public static final RegistryObject<Block> YUCCA = registerBlock("yucca",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.YUCCA_BE));
-public static final RegistryObject<Block> ZINNIA = registerBlock("zinnia",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ZINNIA_BE));
-public static final RegistryObject<Block> AGARICUS_BISPORUS = registerBlock("agaricus_bisporus",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.AGARICUS_BISPORUS_BE));
-public static final RegistryObject<Block> AMANITE_DES_CESARS = registerBlock("amanite_des_cesars",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.AMANITE_DES_CESARS_BE));
-public static final RegistryObject<Block> BOLET_DE_SATAN = registerBlock("bolet_de_satan",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.BOLET_DE_SATAN_BE));
-public static final RegistryObject<Block> CALICE_DE_LA_MORT = registerBlock("calice_de_la_mort",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CALICE_DE_LA_MORT_BE));
-public static final RegistryObject<Block> CHANTERELLE = registerBlock("chanterelle",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CHANTERELLE_BE));
-public static final RegistryObject<Block> COPRIN = registerBlock("coprin",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.COPRIN_BE));
-public static final RegistryObject<Block> CORDYCEPS = registerBlock("cordyceps",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CORDYCEPS_BE));
-public static final RegistryObject<Block> CORTIANIRE_SI_JOLI = registerBlock("cortianire_si_joli",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CORTIANIRE_SI_JOLI_BE));
-public static final RegistryObject<Block> COULEMELLE = registerBlock("coulemelle",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.COULEMELLE_BE));
-public static final RegistryObject<Block> CRINIERE_DE_LION = registerBlock("criniere_de_lion",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CRINIERE_DE_LION_BE));
-public static final RegistryObject<Block> CUDONIA_CIRCINAN = registerBlock("cudonia_circinan",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CUDONIA_CIRCINAN_BE));
-public static final RegistryObject<Block> CEPE = registerBlock("cepe",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CEPE_BE));
-public static final RegistryObject<Block> ENOKI = registerBlock("enoki",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ENOKI_BE));
-public static final RegistryObject<Block> ENTOMOLE_LIVIDE = registerBlock("entomole_livide",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ENTOMOLE_LIVIDE_BE));
-public static final RegistryObject<Block> FAUSSE_MORILLE = registerBlock("fausse_morille",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.FAUSSE_MORILLE_BE));
-public static final RegistryObject<Block> MAITAKE = registerBlock("maitake",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MAITAKE_BE));
-public static final RegistryObject<Block> MARASME_DES_OREADES = registerBlock("marasme_des_oreades",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MARASME_DES_OREADES_BE));
-public static final RegistryObject<Block> MORILLE = registerBlock("morille",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MORILLE_BE));
-public static final RegistryObject<Block> PIED_DE_MOUTON = registerBlock("pied_de_mouton",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.PIED_DE_MOUTON_BE));
-public static final RegistryObject<Block> REISHI = registerBlock("reishi",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.REISHI_BE));
-public static final RegistryObject<Block> ROSE_DES_PRES = registerBlock("rose_des_pres",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ROSE_DES_PRES_BE));
-public static final RegistryObject<Block> SHIITAKE = registerBlock("shiitake",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.SHIITAKE_BE));
-public static final RegistryObject<Block> SHIMEJI = registerBlock("shimeji",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.SHIMEJI_BE));
-public static final RegistryObject<Block> TERMITOMYCES_TITAN = registerBlock("termitomyces_titan",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.TERMITOMYCES_TITAN_BE));
-public static final RegistryObject<Block> TROMPETTE_DE_LA_MORT = registerBlock("trompette_de_la_mort",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.TROMPETTE_DE_LA_MORT_BE));
-public static final RegistryObject<Block> CEREUS_HEANKENUS = registerBlock("cereus_heankenus",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CEREUS_HEANKENUS_BE));
-public static final RegistryObject<Block> FEROCACTUS = registerBlock("ferocactus",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.FEROCACTUS_BE));
-public static final RegistryObject<Block> FEROCACTUS_FLEUR = registerBlock("ferocactus_fleur",
-        () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.FEROCACTUS_FLEUR_BE));
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.ACHILEE_BE));
+    public static final RegistryObject<Block> AIL_DES_OURS = registerBlock("ail_des_ours",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.AIL_DES_OURS_BE));
+    public static final RegistryObject<Block> AMARYLLIS_JAUNE = registerBlock("amaryllis_jaune",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.AMARYLLIS_JAUNE_BE));
+    public static final RegistryObject<Block> AMARYLLIS_ROUGE = registerBlock("amaryllis_rouge",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.AMARYLLIS_ROUGE_BE));
+    public static final RegistryObject<Block> ANETH = registerBlock("aneth",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.ANETH_BE));
+    public static final RegistryObject<Block> ANIS = registerBlock("anis",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.ANIS_BE));
+    public static final RegistryObject<Block> ARNICA = registerBlock("arnica",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.ARNICA_BE));
+    public static final RegistryObject<Block> ASTRAGALE = registerBlock("astragale",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.ASTRAGALE_BE));
+    public static final RegistryObject<Block> AUBEPINE = registerBlock("aubepine",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.AUBEPINE_BE));
+    public static final RegistryObject<Block> BAPTISTA = registerBlock("baptista",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.BAPTISTA_BE));
+    public static final RegistryObject<Block> BELLADONE = registerBlock("belladone",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.BELLADONE_BE));
+    public static final RegistryObject<Block> BENOITE = registerBlock("benoite",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.BENOITE_BE));
+    public static final RegistryObject<Block> BERCE_GEANTE = registerBlock("berce_geante",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.BERCE_GEANTE_BE));
+    public static final RegistryObject<Block> BOIS_JOLI = registerBlock("bois_joli",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.BOIS_JOLI_BE));
+    public static final RegistryObject<Block> BRUYERE_LOTR = registerBlock("bruyere_lotr",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.BRUYERE_LOTR_BE));
+    public static final RegistryObject<Block> CAFEIER = registerBlock("cafeier",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.CAFEIER_BE));
+    public static final RegistryObject<Block> CALENDULA = registerBlock("calendula",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.CALENDULA_BE));
+    public static final RegistryObject<Block> CAMELIA = registerBlock("camelia",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CAMELIA_BE));
+    public static final RegistryObject<Block> CAPUCINE = registerBlock("capucine",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.CAPUCINE_BE));
+    public static final RegistryObject<Block> CIGUE = registerBlock("cigue",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.CIGUE_BE));
+    public static final RegistryObject<Block> CISTE = registerBlock("ciste",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.CISTE_BE));
+    public static final RegistryObject<Block> CORRIANDRE = registerBlock("corriandre",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.CORRIANDRE_BE));
+    public static final RegistryObject<Block> COREOPSIS = registerBlock("coreopsis",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.COREOPSIS_BE));
+    public static final RegistryObject<Block> DIGITALE_POURPRE = registerBlock("digitale_pourpre",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.DIGITALE_POURPRE_BE));
+    public static final RegistryObject<Block> DRACULA_SIMIA = registerBlock("dracula_simia",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.DRACULA_SIMIA_BE));
+    public static final RegistryObject<Block> ESTRAGON = registerBlock("estragon",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.ESTRAGON_BE));
+    public static final RegistryObject<Block> ETOILE_DE_NOEL = registerBlock("etoile_de_noel",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ETOILE_DE_NOEL_BE));
+    public static final RegistryObject<Block> EUPHORBE = registerBlock("euphorbe",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.EUPHORBE_BE));
+    public static final RegistryObject<Block> FRITILLAIRE_PINTADE = registerBlock("fritillaire_pintade",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.FRITILLAIRE_PINTADE_BE));
+    public static final RegistryObject<Block> GAILLET_GRATTERON = registerBlock("gaillet_gratteron",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.GAILLET_GRATTERON_BE));
+    public static final RegistryObject<Block> GINSENG = registerBlock("ginseng",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.GINSENG_BE));
+    public static final RegistryObject<Block> HOUBLON = registerBlock("houblon",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.HOUBLON_BE));
+    public static final RegistryObject<Block> HOUX = registerBlock("houx",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.HOUX_BE));
+    public static final RegistryObject<Block> IRIS_BLEU = registerBlock("iris_bleu",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.IRIS_BLEU_BE));
+    public static final RegistryObject<Block> JACINTHE_DES_BOIS_LOTR = registerBlock("jacinthe_des_bois_lotr",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.JACINTHE_DES_BOIS_LOTR_BE));
+    public static final RegistryObject<Block> JONQUILLE = registerBlock("jonquille",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.JONQUILLE_BE));
+    public static final RegistryObject<Block> LAVENDE = registerBlock("lavende",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.LAVENDE_BE));
+    public static final RegistryObject<Block> LIERRE_TERRESTRE = registerBlock("lierre_terrestre",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.LIERRE_TERRESTRE_BE));
+    public static final RegistryObject<Block> LYCORIS_RADIATA = registerBlock("lycoris_radiata",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.LYCORIS_RADIATA_BE));
+    public static final RegistryObject<Block> MAUVE = registerBlock("mauve",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.MAUVE_BE));
+    public static final RegistryObject<Block> MENTHE = registerBlock("menthe",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.MENTHE_BE));
+    public static final RegistryObject<Block> MUGUET = registerBlock("muguet",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.MUGUET_BE));
+    public static final RegistryObject<Block> MUSCARI = registerBlock("muscari",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.MUSCARI_BE));
+    public static final RegistryObject<Block> MYOSOTIS = registerBlock("myosotis",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.MYOSOTIS_BE));
+    public static final RegistryObject<Block> MYRTILLE = registerBlock("myrtille",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.MYRTILLE_BE));
+    public static final RegistryObject<Block> MELISSE = registerBlock("melisse",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.MELISSE_BE));
+    public static final RegistryObject<Block> NICOTINIA_TABACUM = registerBlock("nicotinia_tabacum",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.NICOTINIA_TABACUM_BE));
+    public static final RegistryObject<Block> NOISETTE_DE_TERRE = registerBlock("noisette_de_terre",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.NOISETTE_DE_TERRE_BE));
+    public static final RegistryObject<Block> ORCHIDEE_ANGE = registerBlock("orchidee_ange",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ORCHIDEE_ANGE_BE));
+    public static final RegistryObject<Block> ORCHIDEE = registerBlock("orchidee",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.ORCHIDEE_BE));
+    public static final RegistryObject<Block> ORTIE = registerBlock("ortie",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.ORTIE_BE));
+    public static final RegistryObject<Block> OSEILLE_SAUVAGE = registerBlock("oseille_sauvage",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.OSEILLE_SAUVAGE_BE));
+    public static final RegistryObject<Block> OXALIS_JAUNE = registerBlock("oxalis_jaune",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.OXALIS_JAUNE_BE));
+    public static final RegistryObject<Block> PELARGONIUM = registerBlock("pelargonium",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.PELARGONIUM_BE));
+    public static final RegistryObject<Block> PERCE_NEIGE = registerBlock("perce_neige",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.PERCE_NEIGE_BE));
+    public static final RegistryObject<Block> PERISTERIA = registerBlock("peristeria",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.PERISTERIA_BE));
+    public static final RegistryObject<Block> PERSIL = registerBlock("persil",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.PERSIL_BE));
+    public static final RegistryObject<Block> PLANTIN = registerBlock("plantin",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.PLANTIN_BE));
+    public static final RegistryObject<Block> POIVRE_NOIR = registerBlock("poivre_noir",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.POIVRE_NOIR_BE));
+    public static final RegistryObject<Block> PRIMEVERE = registerBlock("primevere",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.PRIMEVERE_BE));
+    public static final RegistryObject<Block> PRELE = registerBlock("prele",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.PRELE_BE));
+    public static final RegistryObject<Block> RAFFLESIA = registerBlock("rafflesia",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.RAFFLESIA_BE));
+    public static final RegistryObject<Block> RAISIN_BLANC = registerBlock("raisin_blanc",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.RAISIN_BLANC_BE));
+    public static final RegistryObject<Block> RAISIN_ROUGE = registerBlock("raisin_rouge",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.RAISIN_ROUGE_BE));
+    public static final RegistryObject<Block> RANUNCULUS_FICARIA = registerBlock("ranunculus_ficaria",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.RANUNCULUS_FICARIA_BE));
+    public static final RegistryObject<Block> REINE_DES_PRES = registerBlock("reine_des_pres",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.REINE_DES_PRES_BE));
+    public static final RegistryObject<Block> RHODODENDRON = registerBlock("rhododendron",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.RHODODENDRON_BE));
+    public static final RegistryObject<Block> RICIN = registerBlock("ricin",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.RICIN_BE));
+    public static final RegistryObject<Block> ROMARIN = registerBlock("romarin",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.ROMARIN_BE));
+    public static final RegistryObject<Block> ROSE_BLANCHE = registerBlock("rose_blanche",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ROSE_BLANCHE_BE));
+    public static final RegistryObject<Block> SARRACENE = registerBlock("sarracene",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.SARRACENE_BE));
+    public static final RegistryObject<Block> SILENE = registerBlock("silene",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.SILENE_BE));
+    public static final RegistryObject<Block> SUREAU_NOIR = registerBlock("sureau_noir",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.SUREAU_NOIR_BE));
+    public static final RegistryObject<Block> SWEAT_WILLIAM_BLANCHE = registerBlock("sweat_william_blanche",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.SWEAT_WILLIAM_BLANCHE_BE));
+    public static final RegistryObject<Block> SWEAT_WILLIAM_ROSE = registerBlock("sweat_william_rose",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.SWEAT_WILLIAM_ROSE_BE));
+    public static final RegistryObject<Block> THYM = registerBlock("thym",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.THYM_BE));
+    public static final RegistryObject<Block> THEIER = registerBlock("theier",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.THEIER_BE));
+    public static final RegistryObject<Block> UVULAIRES = registerBlock("uvulaires",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.UVULAIRES_BE));
+    public static final RegistryObject<Block> VIOLETTE = registerBlock("violette",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.VIOLETTE_BE));
+    public static final RegistryObject<Block> WEIGELA = registerBlock("weigela",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.WEIGELA_BE));
+    public static final RegistryObject<Block> YUCCA = registerBlock("yucca",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.YUCCA_BE));
+    public static final RegistryObject<Block> ZINNIA = registerBlock("zinnia",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.ZINNIA_BE));
+
+    public static final RegistryObject<Block> AGARICUS_BISPORUS = registerBlock("agaricus_bisporus",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.AGARICUS_BISPORUS_BE));
+    public static final RegistryObject<Block> AMANITE_DES_CESARS = registerBlock("amanite_des_cesars",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.AMANITE_DES_CESARS_BE));
+    public static final RegistryObject<Block> BOLET_DE_SATAN = registerBlock("bolet_de_satan",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.BOLET_DE_SATAN_BE));
+    public static final RegistryObject<Block> CALICE_DE_LA_MORT = registerBlock("calice_de_la_mort",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.CALICE_DE_LA_MORT_BE));
+    public static final RegistryObject<Block> CHANTERELLE = registerBlock("chanterelle",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.CHANTERELLE_BE));
+    public static final RegistryObject<Block> COPRIN = registerBlock("coprin",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.COPRIN_BE));
+    public static final RegistryObject<Block> CORDYCEPS = registerBlock("cordyceps",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.CORDYCEPS_BE));
+    public static final RegistryObject<Block> CORTIANIRE_SI_JOLI = registerBlock("cortianire_si_joli",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.CORTIANIRE_SI_JOLI_BE));
+    public static final RegistryObject<Block> COULEMELLE = registerBlock("coulemelle",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.COULEMELLE_BE));
+    public static final RegistryObject<Block> CRINIERE_DE_LION = registerBlock("criniere_de_lion",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.CRINIERE_DE_LION_BE));
+    public static final RegistryObject<Block> CUDONIA_CIRCINAN = registerBlock("cudonia_circinan",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.CUDONIA_CIRCINAN_BE));
+    public static final RegistryObject<Block> CEPE = registerBlock("cepe",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.CEPE_BE));
+    public static final RegistryObject<Block> ENOKI = registerBlock("enoki",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.ENOKI_BE));
+    public static final RegistryObject<Block> ENTOMOLE_LIVIDE = registerBlock("entomole_livide",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.ENTOMOLE_LIVIDE_BE));
+    public static final RegistryObject<Block> FAUSSE_MORILLE = registerBlock("fausse_morille",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.FAUSSE_MORILLE_BE));
+    public static final RegistryObject<Block> MAITAKE = registerBlock("maitake",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.MAITAKE_BE));
+    public static final RegistryObject<Block> MARASME_DES_OREADES = registerBlock("marasme_des_oreades",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.MARASME_DES_OREADES_BE));
+    public static final RegistryObject<Block> MORILLE = registerBlock("morille",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.MORILLE_BE));
+    public static final RegistryObject<Block> PIED_DE_MOUTON = registerBlock("pied_de_mouton",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.PIED_DE_MOUTON_BE));
+    public static final RegistryObject<Block> REISHI = registerBlock("reishi",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.REISHI_BE));
+    public static final RegistryObject<Block> ROSE_DES_PRES = registerBlock("rose_des_pres",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.COMMUN, ModBlockEntities.ROSE_DES_PRES_BE));
+    public static final RegistryObject<Block> SHIITAKE = registerBlock("shiitake",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.SHIITAKE_BE));
+    public static final RegistryObject<Block> SHIMEJI = registerBlock("shimeji",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.SHIMEJI_BE));
+    public static final RegistryObject<Block> TERMITOMYCES_TITAN = registerBlock("termitomyces_titan",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.TERMITOMYCES_TITAN_BE));
+    public static final RegistryObject<Block> TROMPETTE_DE_LA_MORT = registerBlock("trompette_de_la_mort",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.TROMPETTE_DE_LA_MORT_BE));
+
+    public static final RegistryObject<Block> CEREUS_HEANKENUS = registerBlock("cereus_heankenus",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.CEREUS_HEANKENUS_BE));
+    public static final RegistryObject<Block> FEROCACTUS = registerBlock("ferocactus",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.RARE, ModBlockEntities.FEROCACTUS_BE));
+    public static final RegistryObject<Block> FEROCACTUS_FLEUR = registerBlock("ferocactus_fleur",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.TRES_RARE, ModBlockEntities.FEROCACTUS_FLEUR_BE));
+
+    public static final RegistryObject<Block> MULDVARPHYTE = registerBlock("muldvarphyte",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.MULDVARPHYTE_BE));
+    public static final RegistryObject<Block> SHI = registerBlock("shi",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.SHI_BE));
+    public static final RegistryObject<Block> ARCANE_BLOOM = registerBlock("arcane_bloom",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ARCANE_BLOOM_BE));
+    public static final RegistryObject<Block> ATHELAS_LOTR = registerBlock("athelas_lotr",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ATHELAS_LOTR_BE));
+    public static final RegistryObject<Block> AURIFERE_MAUVE = registerBlock("aurifere_mauve",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.AURIFERE_MAUVE_BE));
+    public static final RegistryObject<Block> BOUTTON_DES_NEIGES = registerBlock("boutton_des_neiges",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.BOUTTON_DES_NEIGES_BE));
+    public static final RegistryObject<Block> CAMPANULE_MAGIQUE = registerBlock("campanule_magique",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CAMPANULE_MAGIQUE_BE));
+    public static final RegistryObject<Block> CHACANELITE = registerBlock("chacanelite",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.CHACANELITE_BE));
+    public static final RegistryObject<Block> FLLORRINE = registerBlock("fllorrine",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.FLLORRINE_BE));
+    public static final RegistryObject<Block> ICHTIL = registerBlock("ichtil",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.ICHTIL_BE));
+    public static final RegistryObject<Block> SIMBELMYEN_LOTR = registerBlock("simbelmyen_lotr",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.SIMBELMYEN_LOTR_BE));
+    public static final RegistryObject<Block> VICOTINE = registerBlock("vicotine",
+            () -> new Fauna(BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission(), RarityLevel.INTROUVABLE, ModBlockEntities.VICOTINE_BE));
 
 
     public static final RegistryObject<Block> POTTED_ACHILEE = BLOCKS.register("potted_achilee", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.ACHILEE, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
@@ -259,7 +286,7 @@ public static final RegistryObject<Block> FEROCACTUS_FLEUR = registerBlock("fero
     public static final RegistryObject<Block> POTTED_ARNICA = BLOCKS.register("potted_arnica", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.ARNICA, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ASTRAGALE = BLOCKS.register("potted_astragale", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.ASTRAGALE, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
-   public static final RegistryObject<Block> POTTED_AUBEPINE = BLOCKS.register("potted_aubepine", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.AUBEPINE, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_AUBEPINE = BLOCKS.register("potted_aubepine", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.AUBEPINE, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
     public static final RegistryObject<Block> POTTED_BAPTISTA = BLOCKS.register("potted_baptista", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.BAPTISTA, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
@@ -564,6 +591,18 @@ public static final RegistryObject<Block> FEROCACTUS_FLEUR = registerBlock("fero
     public static final RegistryObject<Block> POTTED_FEROCACTUS = BLOCKS.register("potted_ferocactus", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.FEROCACTUS, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
     public static final RegistryObject<Block> POTTED_FEROCACTUS_FLEUR = BLOCKS.register("potted_ferocactus_fleur", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.FEROCACTUS_FLEUR, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
+    public static final RegistryObject<Block> POTTED_MULDVARPHYTE = BLOCKS.register("potted_muldvarphyte", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.MULDVARPHYTE, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_SHI = BLOCKS.register("potted_shi", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.SHI, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_ARCANE_BLOOM = BLOCKS.register("potted_arcane_bloom", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.ARCANE_BLOOM, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_ATHELAS_LOTR = BLOCKS.register("potted_athelas_lotr", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.ATHELAS_LOTR, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_AURIFERE_MAUVE = BLOCKS.register("potted_aurifere_mauve", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.AURIFERE_MAUVE, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_BOUTTON_DES_NEIGES = BLOCKS.register("potted_boutton_des_neiges", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.BOUTTON_DES_NEIGES, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_CAMPANULE_MAGIQUE = BLOCKS.register("potted_campanule_magique", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.CAMPANULE_MAGIQUE, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_CHACANELITE = BLOCKS.register("potted_chacanelite", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.CHACANELITE, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_FLLORRINE = BLOCKS.register("potted_fllorrine", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.FLLORRINE, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_ICHTIL = BLOCKS.register("potted_ichtil", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.ICHTIL, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_SIMBELMYEN_LOTR = BLOCKS.register("potted_simbelmyen_lotr", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.SIMBELMYEN_LOTR, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_VICOTINE = BLOCKS.register("potted_vicotine", () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.VICOTINE, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

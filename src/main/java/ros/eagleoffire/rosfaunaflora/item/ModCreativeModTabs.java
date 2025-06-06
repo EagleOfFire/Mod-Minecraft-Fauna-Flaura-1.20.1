@@ -4,11 +4,16 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import ros.eagleoffire.rosfaunaflora.ROSFaunaFlora;
+import ros.eagleoffire.rosfaunaflora.block.ModBlockEntities;
 import ros.eagleoffire.rosfaunaflora.block.ModBlocks;
+import ros.eagleoffire.rosfaunaflora.block.custom.Fauna;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -136,6 +141,19 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.FEROCACTUS.get());
                         pOutput.accept(ModBlocks.FEROCACTUS_FLEUR.get());
 
+                        //special
+                        pOutput.accept(ModBlocks.MULDVARPHYTE.get());
+                        pOutput.accept(ModBlocks.SHI.get());
+                        pOutput.accept(ModBlocks.ARCANE_BLOOM.get());
+                        pOutput.accept(ModBlocks.ATHELAS_LOTR.get());
+                        pOutput.accept(ModBlocks.AURIFERE_MAUVE.get());
+                        pOutput.accept(ModBlocks.BOUTTON_DES_NEIGES.get());
+                        pOutput.accept(ModBlocks.CAMPANULE_MAGIQUE.get());
+                        pOutput.accept(ModBlocks.CHACANELITE.get());
+                        pOutput.accept(ModBlocks.FLLORRINE.get());
+                        pOutput.accept(ModBlocks.ICHTIL.get());
+                        pOutput.accept(ModBlocks.SIMBELMYEN_LOTR.get());
+                        pOutput.accept(ModBlocks.VICOTINE.get());
                     })
                     .build());
 
